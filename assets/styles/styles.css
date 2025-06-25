@@ -4,3 +4,145 @@
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
 }
+
+main {
+    display: flex;
+    background-color: #E8EBE4;
+}
+
+.contactos {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    background-color: white;
+}
+
+.perfil-personal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #828485;
+}
+
+.foto-y-nombre {
+    display: flex;
+    gap: 1rem;
+}
+
+.tiny-thumbnail {
+    background-image: url("../images/maria.jpg");
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+}
+
+.nombre-perfil {
+    display: flex;
+    flex-direction: column;
+}
+
+.activa {
+    color: #BEC1BB;
+    font-size: 14px;
+}
+
+.iconos-perfil {
+    display: flex;
+    gap: 1rem;
+}
+
+.iconos-perfil i {
+    color: #828485;
+}
+
+.boton-nuevo-chat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 1px solid #828485;
+}
+
+.boton-nuevo-chat button {
+    background-color: #A491D2;
+    border: none;
+}
+
+.boton-nuevo-chat a {
+    text-decoration: none;
+    color: white;
+}
+
+.mensaje {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border-bottom: 1px solid #828485;
+}
+
+.normal-thumbnail {
+    background-size: contain;
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+}
+
+.last-message {
+    font-size: 14px;
+}
+
+.juanita {
+    background-image: url("../images/juanita.jpg");
+}
+
+.alberto {
+    background-image: url("../images/alberto.jpg");
+}
+
+.ignacio {
+    background-image: url("../images/ignacio.jpg");
+}
+
+.cristian {
+    background-image: url("../images/cristian.jpg");
+}
+
+.maria-jose {
+    background-image: url("../images/maria-jose.jpg");
+}
+
+.gonzalo {
+    background-image: url("../images/gonzalo.jpg");
+}
+
+.juan-pablo {
+    background-image: url("../images/juan-pablo.jpg");
+}
+
+.magdalena {
+    background-image: url("../images/magdalena.jpg");
+}
+
+.principal {
+    height: 100vh;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    background-color: #E8EBE4;
+}
+
+.principal img {
+    display: block;
+    max-width:270px;
+    max-height:270px;
+    width: auto;
+    height: auto;
+}
+
+.texto-principal {
+    text-align: center;
+}
